@@ -1,6 +1,6 @@
 import random
 
-'''
+
 #Defining all functions
 # #1
 def mix_number (var1,var2):
@@ -46,7 +46,7 @@ def sphere_measures (dimension):
 def Personal_info (name, age, gender = "Social Construct", married = "NA"):
     print (name, age, gender, married)
     return name, age, gender, married
-'''
+
 #8
 def Hex2RGB(r=int(input(),16),g=int(input(),16),b=int(input(),16)):
    print(str(r)+"-"+str(g)+"-"+str(b))
@@ -57,7 +57,7 @@ def RGB2Hex(R,G,B):
    B = hex(B)
    print(R,"-",G,"-",B)
 
-'''
+
 #Calling functions
 #1
 num1 = int(input("input number"))
@@ -83,7 +83,7 @@ print ("The volume of the sphere is ", x ,"cm3\nThe surface area of the sphere i
 name_in = input("Input your name here:\t")
 age_in = int(input("Input your age here:\t"))
 Personal_info(name_in, age_in)
-'''
+
 R_val = (random.randint(0,255))
 G_val = (random.randint(0,255))
 B_val = (random.randint(0,255))
