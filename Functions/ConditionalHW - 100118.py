@@ -42,4 +42,37 @@ fizzbuzz(var2)
 
 #4
 from math import factorial as f
-def combination()
+def combination(n,r):
+	return (f(n))/((f(r))*(f(n-r)))
+
+var1 = 5
+var2 = 1
+print(combination(var1,var2))
+
+#5
+from random import random as rand, randint as randi
+print(rand())
+print(randi(0,100))
+
+def comment(name):
+	print(name + ', ' + reply[randi(0,len(reply)-1)])
+
+reply = ["You're the best", "You're IQ is lower than Peter", "Einstein?", "Go home, you're out of place in smart areas"]
+comment("Neel")
+
+#6
+def RNG(guess1,guess2,guess3):
+	count = 0
+	if guess1 == randi(1,6):
+		count+=1
+	if guess2 == randi(1,6):
+		count+=1
+	if guess3 == randi(1,6):
+		count+=1
+	print("You got ", count ,"guess(es) right")
+
+varI = 2
+varII = 5
+varIII = 3
+
+RNG(varI,varII,varIII)
